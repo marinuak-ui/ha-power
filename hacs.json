@@ -1,7 +1,5 @@
 {
     "name": "ha power",
     "homeassistant": "2025.7.0",
-    "render_readme": false,
-    "zip_release": true,
-    "filename": "ha_power.zip"
+    "content_in_root": false
 }
