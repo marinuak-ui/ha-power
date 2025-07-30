@@ -1,10 +1,11 @@
 from homeassistant.components.sensor import SensorEntity
+from .const import DOMAIN
 
-class HelloWorldSensor(SensorEntity):
-    _attr_name = "Hello World Sensor"
-    _attr_unique_id = "hello_world_sensor"
-    _attr_icon = "mdi:hand-wave"
+class HaPowerSensor(SensorEntity):
+    _attr_name = "HA Power Sensor"
+    _attr_unique_id = "ha_power_sensor"
+    _attr_icon = "mdi:flash"
 
     @property
     def state(self):
-        return "Hello, World!"
+        return "Hello, Power World!"
