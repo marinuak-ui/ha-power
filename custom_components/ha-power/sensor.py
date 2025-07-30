@@ -1,17 +1,10 @@
 from homeassistant.components.sensor import SensorEntity
 
 class HelloWorldSensor(SensorEntity):
-    def __init__(self):
-        self._state = "Hello, World!"
-
-    @property
-    def name(self):
-        return "Hello World Sensor"
+    _attr_name = "Hello World Sensor"
+    _attr_unique_id = "hello_world_sensor"
+    _attr_icon = "mdi:hand-wave"
 
     @property
     def state(self):
-        return self._state
-
-    @property
-    def icon(self):
-        return "mdi:hand-wave"
+        return "Hello, World!"
