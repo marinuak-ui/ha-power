@@ -1,12 +1,12 @@
 {
     "domain": "ha-power",
     "name": "ha power hello world",
-    "config_flow": true,  // Memerlukan file config_flow.py
+    "config_flow": true,  
     "documentation": "https://github.com/marinuak-ui/ha-power",
     "issue_tracker": "https://github.com/marinuak-ui/ha-power/issues",
     "dependencies": [],
     "requirements": [],
     "codeowners": ["@marinuak-ui"],
     "version": "0.0.1",
-    "iot_class": "local_polling"  // Tambahkan klasifikasi IoT
+    "iot_class": "local_polling" 
 }
